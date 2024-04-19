@@ -1,0 +1,105 @@
+@mixin fonts($q, $size, $w) {
+    display: flex;
+    justify-content: $q;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: $size;
+    font-weight: $w;
+}
+
+.mm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../../imgs/27-03-2024-ZA-background-desktop.webp);
+    background-size: 120%;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+
+    .btn {
+        @include fonts(center, 18px, 400);
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        height: 40px;
+        width: 110px;
+        border: none;
+        border-radius: 7px;
+        color: #eee;
+        background-color: rgb(31, 31, 204);
+        transition: all 0.8s;
+
+        &:hover {
+            opacity: 0.95;
+            background-color: transparent;
+            border: 1px solid #eee;
+            cursor: pointer;
+        }
+
+        &:active {
+            opacity: 0.5;
+        }
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+
+        img {
+            margin-top: 270px;
+            padding-right: 20px;
+        }
+
+        p {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 35px;
+            font-weight: 500;
+            padding-left: 40px;
+            margin-top: 15px;
+            color: #eee;
+            margin-bottom: 25px;
+        }
+
+        button {
+            height: 50px;
+            width: 420px;
+            border: none;
+            border-radius: 7px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: #eee;
+            background-color: rgb(31, 31, 204);
+
+            &:hover {
+                opacity: 0.95;
+                background-color: transparent;
+                border: 1px solid #eee;
+                cursor: pointer;
+            }
+    
+            &:active {
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #eee;
+}
+
+body {
+    margin: 0;
+}

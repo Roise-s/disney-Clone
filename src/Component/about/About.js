@@ -8,8 +8,8 @@ function About() {
   return (
     <div className='main-about'>
       <div className='about'>
-        <img className='i1' src={about_1} alt=''></img>
-        <p className='p1'>Endless <br/> Entertainment</p>
+        <img src={about_1} alt=''></img>
+        <p className='p1 s1'>Endless <br/> Entertainment</p>
         <p className='p2'>Explore thousands of hours of Tv series, movies and originals, from all the wonderful worlds of Disney+.</p>
       </div>
       <div className='about'>

@@ -10,6 +10,7 @@
 }
 
 .reactFAQ {
+    margin-top: 120px;
 
     section {
         min-height: 100vh;
@@ -23,13 +24,13 @@
         .title {
             font-size: 3rem;
             margin: 2rem 0rem;
+            opacity: 0.95;
         }
     
         .faq {
             max-width: 700px;
             margin-top: 2rem;
             padding-bottom: 1rem;
-            border-bottom: 2px solid #fff;
             cursor: pointer;
     
             .question {
@@ -39,6 +40,7 @@
     
                 h3 {
                     font-size: 1.8rem;
+                    opacity: 0.9;
                 }
             }
     
@@ -50,7 +52,9 @@
                 p {
                     padding-top: 1rem;
                     line-height: 1.6;
-                    font-size: 1.4rem;
+                    font-size: 20px;
+                    opacity: 0.5;
+                    margin-bottom: 20px;
                 }
             }
         }
@@ -59,6 +63,7 @@
     .faq.active .answer {
         max-height: 300px;
         animation: fade 1s ease-in-out;
+        border-bottom: 2px solid #fff;
     }
     
     .faq.active svg {

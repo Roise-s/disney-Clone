@@ -43,6 +43,14 @@
   font-weight: 250;
 }
 
-body {
-  background-color: black;
+@media (max-width: 750px) {
+  .main-about {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .main-about .p2 {
+    margin-bottom: 30px;
+    width: 60%;
+  }
 }/*# sourceMappingURL=about.css.map */

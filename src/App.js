@@ -6,6 +6,7 @@ import Watch from './Component/watch/Watch';
 import Exclusive from './Component/exclusive/Exclusive';
 import Compatible from './Component/compatible/Compatible';
 import FAQ from './Component/faq/FAQ';
+import Footer from './Component/footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Exclusive/>
       <Compatible/>
       <FAQ/>
+      <Footer/>
     </div>
   );
 }

@@ -1,1 +1,16 @@
-/*# sourceMappingURL=footer.css.map */
+.footer {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px 0;
+  border-top: 2px solid #eee;
+  width: 80%;
+}
+.footer p {
+  opacity: 0, 5;
+}/*# sourceMappingURL=footer.css.map */

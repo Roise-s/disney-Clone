@@ -3,11 +3,8 @@ import './footer.css'
 
 function Footer() {
   return (
-    <div>
-      <div></div>
-      <div>
-        <p></p>
-      </div>
+    <div className='footer'>
+      <p>&copy;Disney. All rights reserved | &copy; 2024 TAS Rights Management LLC.</p>
     </div>
   )
 }

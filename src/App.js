@@ -5,6 +5,7 @@ import About from './Component/about/About';
 import Watch from './Component/watch/Watch';
 import Exclusive from './Component/exclusive/Exclusive';
 import Compatible from './Component/compatible/Compatible';
+import FAQ from './Component/faq/FAQ';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Watch/>
       <Exclusive/>
       <Compatible/>
+      <FAQ/>
     </div>
   );
 }

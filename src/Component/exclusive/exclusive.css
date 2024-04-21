@@ -1,0 +1,24 @@
+.exclusive {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 200px;
+}
+.exclusive h2 {
+  color: #eee;
+  font-size: 50px;
+  opacity: 0.9;
+  margin-bottom: 10px;
+}
+.exclusive p {
+  color: #eee;
+  font-size: 20px;
+  opacity: 0.5;
+  width: 90%;
+}
+.exclusive img {
+  width: 80%;
+}/*# sourceMappingURL=exclusive.css.map */

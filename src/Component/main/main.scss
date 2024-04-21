@@ -16,6 +16,7 @@
     height: 100vh;
     width: 100vw;
     position: relative;
+    border-bottom: 3px solid blue;
 
     .btn {
         @include fonts(center, 18px, 400);

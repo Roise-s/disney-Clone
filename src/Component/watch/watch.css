@@ -1,0 +1,23 @@
+.watch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  text-align: center;
+}
+.watch h2 {
+  text-align: center;
+  font-size: 55px;
+  opacity: 0.9;
+  color: #eee;
+  margin-bottom: 10px;
+}
+.watch p {
+  color: #eee;
+  font-size: 20px;
+  opacity: 0.5;
+}
+.watch img {
+  width: 90%;
+}/*# sourceMappingURL=watch.css.map */

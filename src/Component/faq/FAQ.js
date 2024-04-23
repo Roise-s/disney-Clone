@@ -55,9 +55,6 @@ const handleClick3 = () => {
     }
 };
 
-
-console.log(active)
-
   return (
     <div className='reactFAQ'>
       <section>

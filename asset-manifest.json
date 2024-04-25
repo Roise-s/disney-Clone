@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/disney-Clone/static/css/main.cc827922.css",
+    "main.js": "/disney-Clone/static/js/main.8f55b1cc.js",
+    "static/js/453.d0598f92.chunk.js": "/disney-Clone/static/js/453.d0598f92.chunk.js",
+    "static/media/Disney-Plus-App.jpg": "/disney-Clone/static/media/Disney-Plus-App.8116daa831923470791a.jpg",
+    "static/media/1568143-h-423b370e8dfe.webp": "/disney-Clone/static/media/1568143-h-423b370e8dfe.821dade20db583496abf.webp",
+    "static/media/1568137-h-87e40749573a.webp": "/disney-Clone/static/media/1568137-h-87e40749573a.6ab8964c3ff4db7ab736.webp",
+    "static/media/27-03-2024-ZA-background-desktop.webp": "/disney-Clone/static/media/27-03-2024-ZA-background-desktop.6f7568e86bccf4897874.webp",
+    "static/media/usp_entertainment_1.webp": "/disney-Clone/static/media/usp_entertainment_1.94608d2e5e2e807ec8a8.webp",
+    "static/media/usp_parental_control_1.webp": "/disney-Clone/static/media/usp_parental_control_1.4e972994b56879fe00fe.webp",
+    "static/media/usp_fav_device_1.webp": "/disney-Clone/static/media/usp_fav_device_1.7346c1e97703961e2cb5.webp",
+    "static/media/mobile.webp": "/disney-Clone/static/media/mobile.f508ae38a509b787f225.webp",
+    "static/media/disney-plus-logo.webp": "/disney-Clone/static/media/disney-plus-logo.4f3e2848ae5ac03654d3.webp",
+    "static/media/computer.webp": "/disney-Clone/static/media/computer.7c6c63b8ca7af4ee97dc.webp",
+    "static/media/tv.webp": "/disney-Clone/static/media/tv.045486abb540b15ee2ee.webp",
+    "index.html": "/disney-Clone/index.html",
+    "main.cc827922.css.map": "/disney-Clone/static/css/main.cc827922.css.map",
+    "main.8f55b1cc.js.map": "/disney-Clone/static/js/main.8f55b1cc.js.map",
+    "453.d0598f92.chunk.js.map": "/disney-Clone/static/js/453.d0598f92.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc827922.css",
+    "static/js/main.8f55b1cc.js"
+  ]
+}
